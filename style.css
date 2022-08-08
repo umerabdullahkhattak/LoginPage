@@ -1,0 +1,180 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+.left{
+    background-image: url("backgroundLeft.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+    width: 40vw;
+    height: 100vh;
+}
+
+.logo{
+  margin-top: 30vh;
+  height: 20vh;
+  width: 40vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+img{
+  height: 15vh;
+  width: 5vw;
+  
+  
+}
+@font-face {
+  font-family: "odin-font";
+  src: url(Norse-Bold.otf);
+}
+h1{
+  font-size: 10vh;
+  font: "odin-font";
+  
+}
+
+.right{
+    
+  background: whitesmoke;
+  
+    width: 60vw;
+    height: 100vh;
+    
+}
+.upperhalf{
+  padding-left: 5vw;
+    padding-right: 5vw;
+}
+.toppara{
+  font-size: 3vh ;
+  margin-top: 20vh;
+}
+.em
+{
+  font-size: 3vh ;
+  padding-bottom: 40px;
+}
+legend{
+  font-size: 3vh ;
+  padding-top: 10px;
+
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+
+/* .fname
+{
+  font-size: 3vh;
+} */ */
+label{
+  display: block;
+  font:3vh;
+}
+input {
+  border: 1px inset black;
+  border-radius: 3px;
+  font-size: 3vh;
+  
+}
+input:focus{
+  border: 1px inset rgb(2, 124, 238);
+  outline: none;
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.fname{
+  display: flex;
+  flex-direction: column;
+}
+.lname{
+  display: flex;
+  flex-direction: column;
+}
+.emailNumber{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+
+}
+.email{
+  display: flex;
+  flex-direction: column;
+}
+.number{
+  display: flex;
+  flex-direction: column;
+
+}
+.password{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.fpassword{
+  display: flex;
+  flex-direction: column;
+}
+.lpassword{
+  display: flex;
+  flex-direction: column;
+}
+.diffbackcol{
+  background-color: white;
+  padding-left: 5vw;
+    padding-right: 5vw;
+}
+.button{
+  padding-left: 5vw;
+  padding-top: 3vw;
+  
+}
+#submit{
+  background: #596D48;
+  width: 16vw;
+  height: 7vh;
+  border-radius: 5px;
+  color: white;
+  font-size: 2.5vh;
+}
+.lastp{
+  padding-left: 5vw;
+  padding-top: 3vw;
+}
+.lastp a{
+  color: #596D48;
+  text-decoration: none;
+}
+/* input[type="password"]{
+  border: 1px inset rgb(209, 16, 16);
+  
+} */
+input:invalid{
+  border: 1px inset red;
+  outline: none;
+}
